@@ -17,6 +17,8 @@ bruge både . og , som decimaltegn - hvad sker der så? (konvertering benytter d
  */
 
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 
 namespace regnemaskine_typekonvertering
 {
@@ -31,16 +33,51 @@ namespace regnemaskine_typekonvertering
             Console.WriteLine("Indtast tal 2");
             string buffer2 = Console.ReadLine();
 
+
+
+
+
             double result = System.Convert.ToDouble(buffer1) + System.Convert.ToDouble(buffer2);
 
-            Console.WriteLine(result.ToString("N2", new System.Globalization.CultureInfo("en-US")));
 
+
+            Console.WriteLine(result.ToString("N2", CultureInfo.InvariantCulture));
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");
                 Console.ReadKey();
             }
+        }
+
+        double CultureFreeConversion(string input)
+        {
+            List<int> commaList = new List<int>();
+            List<int> periodList = new List<int>();
+
+            for (int i = 0; i<input.Length; i++)
+            {
+                if (input[i] == '.')
+                {
+                    periodList.Add(i);
+                }
+                if (input[i] == ',')
+                {
+                    commaList.Add(i);
+                }
+            }
+
+            if(
+                (commaList.Count>0 && periodList.Count>0) ||
+                (commaList.Count>0 && commaList[commaList.Count-1] >  ||
+                false
+                )
+            {
+                throw new Exception("InconsistentSeparators");
+            }
+
+
+            return 0;
         }
     }
 }
