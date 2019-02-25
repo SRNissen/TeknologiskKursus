@@ -6,7 +6,8 @@ namespace TestProjekt
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+
+            
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
