@@ -33,13 +33,7 @@ namespace regnemaskine_typekonvertering
             Console.WriteLine("Indtast tal 2");
             string buffer2 = Console.ReadLine();
 
-
-
-
-
-            double result = System.Convert.ToDouble(buffer1) + System.Convert.ToDouble(buffer2);
-
-
+            double result = CultureFreeConversion(buffer1) + CultureFreeConversion(buffer2);
 
             Console.WriteLine(result.ToString("N2", CultureInfo.InvariantCulture));
 
@@ -50,7 +44,7 @@ namespace regnemaskine_typekonvertering
             }
         }
 
-        double CultureFreeConversion(string input)
+        static double CultureFreeConversion(string input)
         {
             List<int> commaList = new List<int>();
             List<int> periodList = new List<int>();
@@ -67,15 +61,10 @@ namespace regnemaskine_typekonvertering
                 }
             }
 
-            if(
-                (commaList.Count>0 && periodList.Count>0) ||
-                (commaList.Count>0 && commaList[commaList.Count-1] >  ||
-                false
-                )
+            if(commaList.Count==0 && periodList.Count == 0)
             {
-                throw new Exception("InconsistentSeparators");
+                return System.Convert.ToDouble(input);
             }
-
 
             return 0;
         }
