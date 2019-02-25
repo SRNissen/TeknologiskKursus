@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace TestProjekt
 {
     class Program
-   {
-      static void Main(string[] args)
-      {
+    {
+        static void Main(string[] args)
+        {
             Console.WriteLine("Hello World!");
 
             if (System.Diagnostics.Debugger.IsAttached)
@@ -14,5 +14,5 @@ namespace HelloWorld
                 Console.ReadKey();
             }
         }
-   }
+    }
 }
