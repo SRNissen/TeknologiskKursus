@@ -47,30 +47,38 @@ namespace regnemaskine_typekonvertering
         static double CultureFreeConversion(string input)
         {
 
-            int period = input.LastIndexOf('.');
-            int comma = input.LastIndexOf(',');
+            //Hvis der er mere end én instans af noget, så er det ikke en decimal-separator
+            bool multiplePeriods = input.IndexOf('.') != input.LastIndexOf('.');
+            bool multipleCommas = input.IndexOf(',') != input.LastIndexOf(',');
 
-            List<int> commaList = new List<int>();
-            List<int> periodList = new List<int>();
-
-            for (int i = 0; i<input.Length; i++)
+            if (multiplePeriods && multipleCommas)
             {
-                if (input[i] == '.')
-                {
-                    periodList.Add(i);
-                }
-                if (input[i] == ',')
-                {
-                    commaList.Add(i);
-                }
+                throw new Exception("multiplePeriods && multipleCommas");
             }
 
-            if(commaList.Count==0 && periodList.Count == 0)
+            if (multiplePeriods && !multipleCommas)
             {
-                return System.Convert.ToDouble(input);
+                return System.Convert.ToDouble(input, new CultureInfo("da-DK"));
             }
 
-            return 0;
+            if (!multiplePeriods && multipleCommas)
+            {
+                return System.Convert.ToDouble(input, new CultureInfo("en-US"));
+            }
+
+            //Hvis der er max én af hver slags, så er den bagerste decimal-separator
+            if (input.LastIndexOf('.') > input.LastIndexOf(','))
+            {
+                return System.Convert.ToDouble(input, new CultureInfo("en-US"));
+            }
+
+            if (input.LastIndexOf(',') > input.LastIndexOf('.'))
+            {
+                return System.Convert.ToDouble(input, new CultureInfo("da-DK"));
+            }
+
+            //Og, endelig, hvis der ikke er nogen, så er det simpelt nok:
+            return System.Convert.ToDouble(input);
         }
     }
 }
