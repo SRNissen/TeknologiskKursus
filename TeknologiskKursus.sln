@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrugAfVariabler_Text", "Bru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler_Enum", "Variabler_Enum\Variabler_Enum.csproj", "{7FABD999-E719-44B9-8757-8E04EF4170AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler_Struct", "Variabler_Struct\Variabler_Struct.csproj", "{2755213C-B1FA-4DB7-AC6A-C73BCBC59731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler_Struct_Enum", "Variabler_Struct_Enum\Variabler_Struct_Enum.csproj", "{15DC5C7C-D841-4B8B-AF31-EF4668A11640}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{7FABD999-E719-44B9-8757-8E04EF4170AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FABD999-E719-44B9-8757-8E04EF4170AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FABD999-E719-44B9-8757-8E04EF4170AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2755213C-B1FA-4DB7-AC6A-C73BCBC59731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2755213C-B1FA-4DB7-AC6A-C73BCBC59731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2755213C-B1FA-4DB7-AC6A-C73BCBC59731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2755213C-B1FA-4DB7-AC6A-C73BCBC59731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15DC5C7C-D841-4B8B-AF31-EF4668A11640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DC5C7C-D841-4B8B-AF31-EF4668A11640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DC5C7C-D841-4B8B-AF31-EF4668A11640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DC5C7C-D841-4B8B-AF31-EF4668A11640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
