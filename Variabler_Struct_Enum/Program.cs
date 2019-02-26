@@ -21,16 +21,12 @@ namespace Variabler_Struct_Enum
             };
             Console.WriteLine($"{s2.Kulør} {s2.Værdi}");
 
-
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");
                 Console.ReadKey();
             }
         }
-
-        
-
     }
 
     struct SpilleKort
