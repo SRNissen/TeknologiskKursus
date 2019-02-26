@@ -46,6 +46,10 @@ namespace regnemaskine_typekonvertering
 
         static double CultureFreeConversion(string input)
         {
+
+            int period = input.LastIndexOf('.');
+            int comma = input.LastIndexOf(',');
+
             List<int> commaList = new List<int>();
             List<int> periodList = new List<int>();
 
