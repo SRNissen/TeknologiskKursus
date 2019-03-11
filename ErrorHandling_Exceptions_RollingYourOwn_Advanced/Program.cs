@@ -29,10 +29,25 @@ namespace ErrorHandling_Exceptions_RollingYourOwn_Advanced
                     throw new ApplicationException(@"Filen c:\temp\tal.txt findes ikke!");
                 }
 
-            }
-            catch (Exception)
-            {
+                string contentString = System.IO.File.ReadAllText(@"c:\temp\tal.txt");
+                int contentInt = 0;
+                try
+                {
+                    contentInt = System.Convert.ToInt32(contentString);
+                }
+                catch(System.FormatException ex)
+                {
+                    throw new ApplicationException("Indhold kan ikke konverteres til et heltal", ex);
+                }
 
+                contentInt++;
+                System.IO.File.WriteAllText(@"c:\temp\output.txt", contentInt.ToString());
+
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.GetType()+" "+ex.Message);
             }
 
 
