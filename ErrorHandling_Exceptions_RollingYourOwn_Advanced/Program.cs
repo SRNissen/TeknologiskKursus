@@ -22,6 +22,26 @@ namespace ErrorHandling_Exceptions_RollingYourOwn_Advanced
     {
         static void Main(string[] args)
         {
+            try
+            {
+                if(!System.IO.File.Exists(@"c:\temp\tal.txt"))
+                {
+                    throw new ApplicationException(@"Filen c:\temp\tal.txt findes ikke!");
+                }
+
+            }
+            catch (Exception)
+            {
+
+            }
+
+
+
+
+
+
+
+
             if (System.Diagnostics.Debugger.IsAttached)
             {
                 Console.Write("Press any key to continue . . . ");
