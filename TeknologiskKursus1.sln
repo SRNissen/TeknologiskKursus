@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Simple", "Err
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Simple_Retry", "ErrorHandling_Simple_Retry\ErrorHandling_Simple_Retry.csproj", "{1011D489-FA57-4B8C-90C2-86F8F9823DEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Exceptions_RollingYourOwn_Simple", "ErrorHandling_Exceptions_RollingYourOwn\ErrorHandling_Exceptions_RollingYourOwn_Simple.csproj", "{217A1733-E3AE-44F0-8E0C-6437D2796599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Exceptions_RollingYourOwn_Advanced", "ErrorHandling_Exceptions_RollingYourOwn_Advanced\ErrorHandling_Exceptions_RollingYourOwn_Advanced.csproj", "{0255E21D-AD6D-4E3A-880E-E10EEF09A3F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{1011D489-FA57-4B8C-90C2-86F8F9823DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1011D489-FA57-4B8C-90C2-86F8F9823DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1011D489-FA57-4B8C-90C2-86F8F9823DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217A1733-E3AE-44F0-8E0C-6437D2796599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217A1733-E3AE-44F0-8E0C-6437D2796599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217A1733-E3AE-44F0-8E0C-6437D2796599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217A1733-E3AE-44F0-8E0C-6437D2796599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0255E21D-AD6D-4E3A-880E-E10EEF09A3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0255E21D-AD6D-4E3A-880E-E10EEF09A3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0255E21D-AD6D-4E3A-880E-E10EEF09A3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0255E21D-AD6D-4E3A-880E-E10EEF09A3F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
