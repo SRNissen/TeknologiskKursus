@@ -13,31 +13,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrugAfVariabler_Tal", "Brug
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "regnemaskine_typekonvertering", "regnemaskine_typekonvertering\regnemaskine_typekonvertering.csproj", "{C16210C3-DF1C-484F-B528-8392B747EB3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrugAfVariabler_DateTime", "BrugAfVariabler_DateTime\BrugAfVariabler_DateTime.csproj", "{5BD84E50-DF70-40B2-8BF0-EAAF6EE5E848}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrugAfVariabler_DateTime", "BrugAfVariabler_DateTime\BrugAfVariabler_DateTime.csproj", "{5BD84E50-DF70-40B2-8BF0-EAAF6EE5E848}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrugAfVariabler_Text", "BrugAfVariabler_Text\BrugAfVariabler_Text.csproj", "{4B05779F-257F-4343-8471-BB3105F70A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BrugAfVariabler_Text", "BrugAfVariabler_Text\BrugAfVariabler_Text.csproj", "{4B05779F-257F-4343-8471-BB3105F70A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler_Enum", "Variabler_Enum\Variabler_Enum.csproj", "{7FABD999-E719-44B9-8757-8E04EF4170AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variabler_Enum", "Variabler_Enum\Variabler_Enum.csproj", "{7FABD999-E719-44B9-8757-8E04EF4170AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler_Struct", "Variabler_Struct\Variabler_Struct.csproj", "{2755213C-B1FA-4DB7-AC6A-C73BCBC59731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variabler_Struct", "Variabler_Struct\Variabler_Struct.csproj", "{2755213C-B1FA-4DB7-AC6A-C73BCBC59731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler_Struct_Enum", "Variabler_Struct_Enum\Variabler_Struct_Enum.csproj", "{15DC5C7C-D841-4B8B-AF31-EF4668A11640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variabler_Struct_Enum", "Variabler_Struct_Enum\Variabler_Struct_Enum.csproj", "{15DC5C7C-D841-4B8B-AF31-EF4668A11640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScratchPad", "ScratchPad\ScratchPad.csproj", "{48E713C7-F223-4EB0-9C8B-2157E172F4C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScratchPad", "ScratchPad\ScratchPad.csproj", "{48E713C7-F223-4EB0-9C8B-2157E172F4C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow_for_og_if", "Flow_for_og_if\Flow_for_og_if.csproj", "{C301EFA0-31CB-42E8-89F5-55ACF2BF0A1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow_for_og_if", "Flow_for_og_if\Flow_for_og_if.csproj", "{C301EFA0-31CB-42E8-89F5-55ACF2BF0A1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow_Break_Continue", "Flow_Break_Continue\Flow_Break_Continue.csproj", "{B290CE18-AD99-4C37-87D8-80FA9911C2DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow_Break_Continue", "Flow_Break_Continue\Flow_Break_Continue.csproj", "{B290CE18-AD99-4C37-87D8-80FA9911C2DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder_Simple", "Metoder_Simple\Metoder_Simple.csproj", "{64AB7F1D-7E31-4A90-B535-AB97DE138C0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metoder_Simple", "Metoder_Simple\Metoder_Simple.csproj", "{64AB7F1D-7E31-4A90-B535-AB97DE138C0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder_Statisk", "Metoder_Statisk\Metoder_Statisk.csproj", "{38DB589C-9A13-453F-BD2F-E57BB471A1C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metoder_Statisk", "Metoder_Statisk\Metoder_Statisk.csproj", "{38DB589C-9A13-453F-BD2F-E57BB471A1C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder_Overload", "Metoder_Overload\Metoder_Overload.csproj", "{A8A837D0-7855-4DA9-902A-4AC00206C59C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metoder_Overload", "Metoder_Overload\Metoder_Overload.csproj", "{A8A837D0-7855-4DA9-902A-4AC00206C59C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metoder_rekursiv", "Metoder_rekursiv\Metoder_rekursiv.csproj", "{8AE3AAC2-CD28-45EA-BDCC-62F06A0A6708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metoder_rekursiv", "Metoder_rekursiv\Metoder_rekursiv.csproj", "{8AE3AAC2-CD28-45EA-BDCC-62F06A0A6708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metoder_rekursiv_adv", "metoder_rekursiv_adv\metoder_rekursiv_adv.csproj", "{185032CA-F15C-4CA8-9757-39EC87F3558F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metoder_rekursiv_adv", "metoder_rekursiv_adv\metoder_rekursiv_adv.csproj", "{185032CA-F15C-4CA8-9757-39EC87F3558F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Simple", "ErrorHandling_Simple\ErrorHandling_Simple.csproj", "{483979F5-0E64-4C61-BAD8-9A9B872F75D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Simple_Retry", "ErrorHandling_Simple_Retry\ErrorHandling_Simple_Retry.csproj", "{1011D489-FA57-4B8C-90C2-86F8F9823DEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +121,14 @@ Global
 		{185032CA-F15C-4CA8-9757-39EC87F3558F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{185032CA-F15C-4CA8-9757-39EC87F3558F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{185032CA-F15C-4CA8-9757-39EC87F3558F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483979F5-0E64-4C61-BAD8-9A9B872F75D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483979F5-0E64-4C61-BAD8-9A9B872F75D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483979F5-0E64-4C61-BAD8-9A9B872F75D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483979F5-0E64-4C61-BAD8-9A9B872F75D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1011D489-FA57-4B8C-90C2-86F8F9823DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1011D489-FA57-4B8C-90C2-86F8F9823DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1011D489-FA57-4B8C-90C2-86F8F9823DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1011D489-FA57-4B8C-90C2-86F8F9823DEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
