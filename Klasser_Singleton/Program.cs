@@ -18,5 +18,7 @@ namespace Klasser_Singleton
                 Console.ReadKey();
             }
         }
+
+
     }
 }
