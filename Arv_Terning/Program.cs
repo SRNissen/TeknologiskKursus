@@ -41,6 +41,20 @@ namespace Arv_Terning
                 ludo.Write();
             }
 
+            Console.WriteLine("Shaking each die");
+            foreach (var terning in terninger)
+            {
+                terning.Shake();
+                terning.Write();
+            }
+            Console.WriteLine("Shaking each ludo die");
+            foreach (var die in ludos)
+            {
+                die.Shake();
+                die.Write();
+            }
+
+
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
