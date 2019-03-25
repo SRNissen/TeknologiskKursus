@@ -22,7 +22,8 @@ namespace Delegates_Log
 
     class Machine
     {
-        public Action<string> Log { get; set; }
+        public delegate void LogDelegate(string input);
+        public LogDelegate Log { get; set; }
 
         public void Start()
         {
