@@ -39,33 +39,39 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metoder_rekursiv", "Metoder
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "metoder_rekursiv_adv", "metoder_rekursiv_adv\metoder_rekursiv_adv.csproj", "{185032CA-F15C-4CA8-9757-39EC87F3558F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Simple", "ErrorHandling_Simple\ErrorHandling_Simple.csproj", "{483979F5-0E64-4C61-BAD8-9A9B872F75D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling_Simple", "ErrorHandling_Simple\ErrorHandling_Simple.csproj", "{483979F5-0E64-4C61-BAD8-9A9B872F75D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Simple_Retry", "ErrorHandling_Simple_Retry\ErrorHandling_Simple_Retry.csproj", "{1011D489-FA57-4B8C-90C2-86F8F9823DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling_Simple_Retry", "ErrorHandling_Simple_Retry\ErrorHandling_Simple_Retry.csproj", "{1011D489-FA57-4B8C-90C2-86F8F9823DEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Exceptions_RollingYourOwn_Simple", "ErrorHandling_Exceptions_RollingYourOwn\ErrorHandling_Exceptions_RollingYourOwn_Simple.csproj", "{217A1733-E3AE-44F0-8E0C-6437D2796599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling_Exceptions_RollingYourOwn_Simple", "ErrorHandling_Exceptions_RollingYourOwn\ErrorHandling_Exceptions_RollingYourOwn_Simple.csproj", "{217A1733-E3AE-44F0-8E0C-6437D2796599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorHandling_Exceptions_RollingYourOwn_Advanced", "ErrorHandling_Exceptions_RollingYourOwn_Advanced\ErrorHandling_Exceptions_RollingYourOwn_Advanced.csproj", "{0255E21D-AD6D-4E3A-880E-E10EEF09A3F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorHandling_Exceptions_RollingYourOwn_Advanced", "ErrorHandling_Exceptions_RollingYourOwn_Advanced\ErrorHandling_Exceptions_RollingYourOwn_Advanced.csproj", "{0255E21D-AD6D-4E3A-880E-E10EEF09A3F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstSession", "FirstSession", "{3C30C7AD-3CD1-4E3E-8F50-9BAD94AAAA5B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecondSession", "SecondSession", "{7CB6E86D-7511-4572-A852-E112B14E29D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hukommelse_Struct_Class", "Hukommelse_Struct_Class\Hukommelse_Struct_Class.csproj", "{C12D86C7-C1DB-4885-9F29-8459B4C87F41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hukommelse_Struct_Class", "Hukommelse_Struct_Class\Hukommelse_Struct_Class.csproj", "{C12D86C7-C1DB-4885-9F29-8459B4C87F41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser_SimpelKlasse", "Klasser_SimpelKlasse\Klasser_SimpelKlasse.csproj", "{480C7DFC-16B8-4F29-B866-89A0A26BE2A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klasser_SimpelKlasse", "Klasser_SimpelKlasse\Klasser_SimpelKlasse.csproj", "{480C7DFC-16B8-4F29-B866-89A0A26BE2A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser_Terning", "Klasser_Terning\Klasser_Terning.csproj", "{7FD9C98B-44EB-44EC-AAD7-1EF342BB452E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klasser_Terning", "Klasser_Terning\Klasser_Terning.csproj", "{7FD9C98B-44EB-44EC-AAD7-1EF342BB452E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser_Static", "Klasser_Static\Klasser_Static.csproj", "{8537D647-708B-45BB-B6FE-A0BF487B6A74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klasser_Static", "Klasser_Static\Klasser_Static.csproj", "{8537D647-708B-45BB-B6FE-A0BF487B6A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser_Singleton", "Klasser_Singleton\Klasser_Singleton.csproj", "{01333B8F-C01F-4E7B-A9A2-821733BFB944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klasser_Singleton", "Klasser_Singleton\Klasser_Singleton.csproj", "{01333B8F-C01F-4E7B-A9A2-821733BFB944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber_KompletteEgenskaber", "Egenskaber_KompletteEgenskaber\Egenskaber_KompletteEgenskaber.csproj", "{DC0F8CAB-72BF-470D-AE6B-D97CD668560C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Egenskaber_KompletteEgenskaber", "Egenskaber_KompletteEgenskaber\Egenskaber_KompletteEgenskaber.csproj", "{DC0F8CAB-72BF-470D-AE6B-D97CD668560C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber_GetSomMetoder", "Egenskaber_GetSomMetoder\Egenskaber_GetSomMetoder.csproj", "{3FD9B69C-D4B5-47B9-96BD-AD9274BE52C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Egenskaber_GetSomMetoder", "Egenskaber_GetSomMetoder\Egenskaber_GetSomMetoder.csproj", "{3FD9B69C-D4B5-47B9-96BD-AD9274BE52C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber_AutomatiskeEgenskaber", "Egenskaber_AutomatiskeEgenskaber\Egenskaber_AutomatiskeEgenskaber.csproj", "{382F04A1-FEC0-43C3-9F40-66759553B80D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Egenskaber_AutomatiskeEgenskaber", "Egenskaber_AutomatiskeEgenskaber\Egenskaber_AutomatiskeEgenskaber.csproj", "{382F04A1-FEC0-43C3-9F40-66759553B80D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdSession", "ThirdSession", "{E1A2EC54-2C42-4306-99BB-C49BD437A19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv_Polymorfi", "Arv_Polymorfi\Arv_Polymorfi.csproj", "{C8D35CA6-C1F7-4FA5-B69B-1CE8A17D7DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arv_Terning", "Arv_Terning\Arv_Terning.csproj", "{F0EC9D5C-324B-4C18-9AD1-0EF2A930C206}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,6 +199,14 @@ Global
 		{382F04A1-FEC0-43C3-9F40-66759553B80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{382F04A1-FEC0-43C3-9F40-66759553B80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{382F04A1-FEC0-43C3-9F40-66759553B80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D35CA6-C1F7-4FA5-B69B-1CE8A17D7DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D35CA6-C1F7-4FA5-B69B-1CE8A17D7DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D35CA6-C1F7-4FA5-B69B-1CE8A17D7DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D35CA6-C1F7-4FA5-B69B-1CE8A17D7DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EC9D5C-324B-4C18-9AD1-0EF2A930C206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EC9D5C-324B-4C18-9AD1-0EF2A930C206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EC9D5C-324B-4C18-9AD1-0EF2A930C206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EC9D5C-324B-4C18-9AD1-0EF2A930C206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +240,8 @@ Global
 		{DC0F8CAB-72BF-470D-AE6B-D97CD668560C} = {7CB6E86D-7511-4572-A852-E112B14E29D9}
 		{3FD9B69C-D4B5-47B9-96BD-AD9274BE52C0} = {7CB6E86D-7511-4572-A852-E112B14E29D9}
 		{382F04A1-FEC0-43C3-9F40-66759553B80D} = {7CB6E86D-7511-4572-A852-E112B14E29D9}
+		{C8D35CA6-C1F7-4FA5-B69B-1CE8A17D7DE8} = {E1A2EC54-2C42-4306-99BB-C49BD437A19F}
+		{F0EC9D5C-324B-4C18-9AD1-0EF2A930C206} = {E1A2EC54-2C42-4306-99BB-C49BD437A19F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {486665F3-2429-429B-BB30-3118D1608F45}
