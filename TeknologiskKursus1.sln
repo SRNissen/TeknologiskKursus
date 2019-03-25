@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates_HeltGrundlæggend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesBeregner", "DelegatesBeregner\DelegatesBeregner.csproj", "{90F698D0-FE45-4538-92E8-9A711D25AFCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates_Log", "Delegates_Log\Delegates_Log.csproj", "{01BA289F-F072-415B-97B2-DD54C45BAEE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{90F698D0-FE45-4538-92E8-9A711D25AFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F698D0-FE45-4538-92E8-9A711D25AFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F698D0-FE45-4538-92E8-9A711D25AFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BA289F-F072-415B-97B2-DD54C45BAEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BA289F-F072-415B-97B2-DD54C45BAEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BA289F-F072-415B-97B2-DD54C45BAEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BA289F-F072-415B-97B2-DD54C45BAEE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -277,6 +283,7 @@ Global
 		{A7CC6AD5-878B-4671-880E-F4D176A38B13} = {E1A2EC54-2C42-4306-99BB-C49BD437A19F}
 		{8CA6B19D-C43B-4B1E-9220-5C6FB9639E06} = {E1A2EC54-2C42-4306-99BB-C49BD437A19F}
 		{90F698D0-FE45-4538-92E8-9A711D25AFCF} = {E1A2EC54-2C42-4306-99BB-C49BD437A19F}
+		{01BA289F-F072-415B-97B2-DD54C45BAEE1} = {E1A2EC54-2C42-4306-99BB-C49BD437A19F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {486665F3-2429-429B-BB30-3118D1608F45}
