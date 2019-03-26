@@ -22,7 +22,7 @@ namespace Delegates_Lambda
             int index = a.FindIndex(Find51);
             Console.WriteLine(index);
             a.ForEach(Write);
-             
+
             Console.WriteLine("------------------------------");
 
             int index2 = a.FindIndex(x => x == 51);
