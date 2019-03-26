@@ -6,11 +6,5 @@
         xmlns:local="clr-namespace:XamlTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TabControl>
-            <TabItem Name="First"   Height="15" Width="40"></TabItem>
-            <TabItem Name="Second"  Height="15" Width="40"></TabItem>
-            <TabItem Name="Third"   Height="15" Width="40"></TabItem>
-        </TabControl>
-    </Grid>
-</Window>
+    <Grid></Grid>
+    </Window>
