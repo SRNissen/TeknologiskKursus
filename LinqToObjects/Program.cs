@@ -67,10 +67,11 @@ namespace LinqToObjects
                 Console.WriteLine($"{person.Name} is {person.Height} cm");
             }
 
+
             Console.WriteLine("\n--------------------20 people 'F' Ordered grouped by 10 cm height increases");
             int[] range = { 150, 160, 170, 180, 190, 200, 210, 220 };
             var F = r.GetPeople(20);
-            var Fo = F.OrderBy(i => i.Height).GroupBy(i => { return range.FirstOrDefault(x => x > i.Height)-10; });
+            var Fo = F.OrderBy(i => i.Height).GroupBy(i => { return range.FirstOrDefault(x => x > i.Height) - 10; });
             foreach (var group in Fo)
             {
                 Console.WriteLine($"Group: {group.Key}");
