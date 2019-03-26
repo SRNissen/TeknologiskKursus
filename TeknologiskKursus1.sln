@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesBeregner_MedFunc",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates_Lambda", "Delegates_Lambda\Delegates_Lambda.csproj", "{3562905C-89B3-49F2-9A37-A10CD48E961C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlTest", "XamlTest\XamlTest.csproj", "{ECB47BE7-172B-4D10-95D6-FC0942258C2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{3562905C-89B3-49F2-9A37-A10CD48E961C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3562905C-89B3-49F2-9A37-A10CD48E961C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3562905C-89B3-49F2-9A37-A10CD48E961C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB47BE7-172B-4D10-95D6-FC0942258C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB47BE7-172B-4D10-95D6-FC0942258C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB47BE7-172B-4D10-95D6-FC0942258C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB47BE7-172B-4D10-95D6-FC0942258C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
